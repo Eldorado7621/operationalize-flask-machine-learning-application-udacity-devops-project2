@@ -32,15 +32,18 @@ Below are the steps to get the project running using the Azure Cloud Shell
 ![venv](https://user-images.githubusercontent.com/34632633/186282031-a3b5c0a9-7827-46fc-a3a4-11fe328e71ba.png)
 
 4. Run `make all` to install the required packages, the lint test and the unit test as specified in the MakeFile
+
 ![pytest-passed-local](https://user-images.githubusercontent.com/34632633/186282320-378e5219-5de4-4321-9dbf-d6e59192857a.png)
 
 5. Since all the test have been passed, the next step is to run the app locally. use `python app.py` from the AZure cloud shell,
+
 ![running-the-app](https://user-images.githubusercontent.com/34632633/186282515-3d666930-7ddf-4806-a7ee-7049114184c7.png)
 
 6. You can preview the app on the browser by configuring the port. 
       1. Click on web preview in the azure cloud shell
       2. Type 5000 in the configure port
       3. Select open and browse
+      
 ![port_config](https://user-images.githubusercontent.com/34632633/186346664-b69c49e1-5be1-4d4e-8388-b0fc328d7915.png)
 
   The output on the browser is as shown below
@@ -56,9 +59,11 @@ Since we were able to run the app locally, it is time we deploy the web applicat
 
 2. Create an app service and deploy the app in the Azure cloud shell
   `az webapp up --name <Your_unique_app_name> --resource-group <resource-group-name> --runtime "PYTHON:3.7"`
+  
 ![webapp-deployed](https://user-images.githubusercontent.com/34632633/186376357-b48d114a-72e5-4482-b1e4-70f99f00c857.png)
 
 3.  You can confirm the deployment by checking the app in the azure portal
+4.  
 ![app_deployed](https://user-images.githubusercontent.com/34632633/186377431-bbd4cb2b-297b-4457-83d0-f77550dd0e4d.png)
 
 4.  You can also verify the deployed application works by browsing to the deployed URL. Go to 
@@ -76,6 +81,7 @@ Since we were able to run the app locally, it is time we deploy the web applicat
 1. Goto https://dev.azure.com/ .If you don't already have an organization you will be prompted to make one. Once you've created your Azure DevOps account you can go ahead and create a new project.
 
 2. On the top right and create a New Project
+
 ![pipleine create project](https://user-images.githubusercontent.com/34632633/186412056-470f8a3b-a826-4c92-a27e-ad77a157e092.png)
 
 3. After creating your project, click on it and choose the Pipelines icon on the left side. You will be asked to configure the source of your code. Clicking Github should urge you to link your Github account to your Azure DevOps account, so go ahead and do that.
