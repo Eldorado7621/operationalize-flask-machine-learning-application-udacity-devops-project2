@@ -1,3 +1,6 @@
+## Overview
+As part of the Udacity Azure Devops Nanodegree course, this project entails creating a CI/CD machine learning PaaS. A flask machine learning web application that makes prediction on the prices of houses was deployed on Azure. Below is a detailed instruction on you can setup the project to be up and running.
+
 ## Project Plan
 For a well structured project plan, a Trello board was used. This makes it easy for stakeholders and engineering team to see the project progress. The links to the Trello board and the Google sheet are as given below:
 
