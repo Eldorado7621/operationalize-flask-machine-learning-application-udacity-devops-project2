@@ -29,6 +29,7 @@ Below are the steps to get the project running using the Azure Cloud Shell
 3. Source the newly created virtual environment and change to the directory of the cloned repo
    `source ~/.{project-name}/bin/activate
      cd udacity-flask-ml-project2`
+     
 ![venv](https://user-images.githubusercontent.com/34632633/186282031-a3b5c0a9-7827-46fc-a3a4-11fe328e71ba.png)
 
 4. Run `make all` to install the required packages, the lint test and the unit test as specified in the MakeFile
