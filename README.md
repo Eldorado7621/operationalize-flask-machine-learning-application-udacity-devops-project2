@@ -29,7 +29,6 @@ Below are the steps to get the project running using the Azure Cloud Shell
 3. Source the newly created virtual environment and change to the directory of the cloned repo
    `source ~/.{project-name}/bin/activate
      cd udacity-flask-ml-project2`
-     
 ![venv](https://user-images.githubusercontent.com/34632633/186282031-a3b5c0a9-7827-46fc-a3a4-11fe328e71ba.png)
 
 4. Run `make all` to install the required packages, the lint test and the unit test as specified in the MakeFile
@@ -42,7 +41,6 @@ Below are the steps to get the project running using the Azure Cloud Shell
       1. Click on web preview in the azure cloud shell
       2. Type 5000 in the configure port
       3. Select open and browse
-      
 ![port_config](https://user-images.githubusercontent.com/34632633/186346664-b69c49e1-5be1-4d4e-8388-b0fc328d7915.png)
 
   The output on the browser is as shown below
@@ -76,6 +74,8 @@ Since we were able to run the app locally, it is time we deploy the web applicat
    `git pull`
 7. To make prediction use this command `./make_predict_azure_app.sh` . The output should be similar to as shown below
 ![predictn](https://user-images.githubusercontent.com/34632633/186665276-800646cb-a7c0-4137-bd06-dff924eafa7e.png)
+8. If you would to check the logs of your application you can see them using this command should see something like this below. az webapp log tail -g "{resource-group-name}" -n "{app-name}"
+![logfile](https://user-images.githubusercontent.com/34632633/186671171-c07c9b57-b879-48fa-8c55-3fa6e1cfc93a.png)
 
 
 ## Setup Azure Pipeline
