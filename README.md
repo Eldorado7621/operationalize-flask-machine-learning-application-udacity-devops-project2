@@ -65,12 +65,16 @@ Since we were able to run the app locally, it is time we deploy the web applicat
        `https://<Your_unique_app_name>.azurewebsites.net/`
 
    and you should see the same output as in the screenshot below:
+![deployedapp](https://user-images.githubusercontent.com/34632633/186665106-b7f81ff6-e2a6-4149-9a99-e567a874a961.png)
+
 5.  To perform prediction, update the make_predict_azure_app.sh file in your github repo to match the deployed URL:
    `-X POST https://<yourappname>.azurewebsites.net:$PORT/predict`
 
 6. You can then perform git pull to update the Azure cloud shell
    `git pull`
-7. To make prediction use this command `./make_predict_azure_app.sh`  
+7. To make prediction use this command `./make_predict_azure_app.sh` . The output should be similar to as shown below
+![predictn](https://user-images.githubusercontent.com/34632633/186665276-800646cb-a7c0-4137-bd06-dff924eafa7e.png)
+
 
 ## Setup Azure Pipeline
 
@@ -84,10 +88,4 @@ Since we were able to run the app locally, it is time we deploy the web applicat
 4. Following the creation of the project, the wizard will guide you through the procedures of choosing your repository, customizing the pipelines YAML file, and checking the YAML file into your repository before deploying your project to the chosen Azure resource. 
 
 ![azure_pipeline](https://user-images.githubusercontent.com/34632633/186413788-3c7946e8-c059-452d-8814-ec4bf2677b29.png)
-
-
-
-Welcome to the udacity-flask-ml-project2 wiki!
-``
-![remote test pass](https://user-images.githubusercontent.com/34632633/185623097-dea4bf53-0633-4a15-9a53-d0e11b273854.png)
 
