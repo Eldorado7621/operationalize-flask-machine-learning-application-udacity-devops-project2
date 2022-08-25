@@ -42,6 +42,7 @@ Below are the steps to get the project running using the Azure Cloud Shell
       1. Click on web preview in the azure cloud shell
       2. Type 5000 in the configure port
       3. Select open and browse
+      
 ![port_config](https://user-images.githubusercontent.com/34632633/186346664-b69c49e1-5be1-4d4e-8388-b0fc328d7915.png)
 
   The output on the browser is as shown below
