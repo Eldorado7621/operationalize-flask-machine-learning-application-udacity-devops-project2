@@ -1,6 +1,3 @@
-## Overview
-As part of the Udacity Azure Devops Nanodegree course, this project entails creating a CI/CD machine learning PaaS. A flask machine learning web application that makes prediction on the prices of houses was deployed on Azure. Below is a detailed instruction on you can setup the project to be up and running.
-
 ## Project Plan
 For a well structured project plan, a Trello board was used. This makes it easy for stakeholders and engineering team to see the project progress. The links to the Trello board and the Google sheet are as given below:
 
@@ -32,6 +29,7 @@ Below are the steps to get the project running using the Azure Cloud Shell
 3. Source the newly created virtual environment and change to the directory of the cloned repo
    `source ~/.{project-name}/bin/activate
      cd udacity-flask-ml-project2`
+
 ![venv](https://user-images.githubusercontent.com/34632633/186282031-a3b5c0a9-7827-46fc-a3a4-11fe328e71ba.png)
 
 4. Run `make all` to install the required packages, the lint test and the unit test as specified in the MakeFile
@@ -77,8 +75,6 @@ Since we were able to run the app locally, it is time we deploy the web applicat
    `git pull`
 7. To make prediction use this command `./make_predict_azure_app.sh` . The output should be similar to as shown below
 ![predictn](https://user-images.githubusercontent.com/34632633/186665276-800646cb-a7c0-4137-bd06-dff924eafa7e.png)
-8. If you would to check the logs of your application you can see them using this command should see something like this below. az webapp log tail -g "{resource-group-name}" -n "{app-name}"
-![logfile](https://user-images.githubusercontent.com/34632633/186671171-c07c9b57-b879-48fa-8c55-3fa6e1cfc93a.png)
 
 
 ## Setup Azure Pipeline
@@ -94,3 +90,5 @@ Since we were able to run the app locally, it is time we deploy the web applicat
 
 ![azure_pipeline](https://user-images.githubusercontent.com/34632633/186413788-3c7946e8-c059-452d-8814-ec4bf2677b29.png)
 
+## Demo
+Here is a link to the demo on [Youtube ](https://youtu.be/_byl639KmWg)
