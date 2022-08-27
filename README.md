@@ -1,6 +1,5 @@
-[![Github status](https://img.shields.io/github/workflow/status/Eldorado7621/udacity-flask-ml-project2)]
 
-![CI](https://github.com/Eldorado7621/udacity-flask-ml-project2/workflows/CI/badge.svg)
+![Code Quality Score](https://api.codiga.io/project/34477/score/svg)
 
 ## Project Plan
 For a well structured project plan, a Trello board was used. This makes it easy for stakeholders and engineering team to see the project progress. The links to the Trello board and the Google sheet are as given below:
