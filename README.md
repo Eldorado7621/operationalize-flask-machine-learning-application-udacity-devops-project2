@@ -1,6 +1,10 @@
 
 ![Code Quality Score](https://api.codiga.io/project/34477/score/svg)
 
+## Overview
+As part of the Udacity Azure Devops Nanodegree course, this project entails creating a CI/CD flask web machine learning application. Prediction on house prices can be made with the application. 
+This repo contains step by step instruction on how to set up the application.
+
 ## Project Plan
 For a well structured project plan, a Trello board was used. This makes it easy for stakeholders and engineering team to see the project progress. The links to the Trello board and the Google sheet are as given below:
 
@@ -92,6 +96,19 @@ Since we were able to run the app locally, it is time we deploy the web applicat
 4. Following the creation of the project, the wizard will guide you through the procedures of choosing your repository, customizing the pipelines YAML file, and checking the YAML file into your repository before deploying your project to the chosen Azure resource. 
 
 ![azure_pipeline](https://user-images.githubusercontent.com/34632633/186413788-3c7946e8-c059-452d-8814-ec4bf2677b29.png)
+
+## Load Tests
+Locust is used to perform load testing on the web app.
+`locust -f locustfile.py --headless -u 20 -r 5 -t 20s`
+In the code above, locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds:
+![locust2](https://user-images.githubusercontent.com/34632633/187044030-6ceaf031-0d55-4367-bb8c-10e3fbce64fc.png)
+
+
+## POSSIBLE FUTURE PROJECT IMPROVEMENT
+A list of possible future improvement in the project is as given below:
+* Improvement of the model
+* Adding additional parameters to the predict endpoint
+
 
 ## Demo
 Here is a link to the demo on [Youtube ](https://youtu.be/_byl639KmWg)
