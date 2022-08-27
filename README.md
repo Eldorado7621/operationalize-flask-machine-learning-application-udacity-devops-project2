@@ -1,4 +1,4 @@
-https://img.shields.io/github/workflow/status/samuel/udacity-flask-ml-project2/flask-ml
+[![Github status](https://img.shields.io/github/workflow/status/samuel/udacity-flask-ml-project2/flask-ml)]
 
 ## Project Plan
 For a well structured project plan, a Trello board was used. This makes it easy for stakeholders and engineering team to see the project progress. The links to the Trello board and the Google sheet are as given below:
