@@ -1,4 +1,4 @@
-[![Github status](https://img.shields.io/github/workflow/status/samuel/udacity-flask-ml-project2/flask-ml)]
+[![Github status](https://img.shields.io/github/workflow/status/Eldorado7621/udacity-flask-ml-project2)]
 
 ![CI](https://github.com/Eldorado7621/udacity-flask-ml-project2/workflows/CI/badge.svg)
 
