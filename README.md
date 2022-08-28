@@ -101,7 +101,12 @@ Since we were able to run the app locally, it is time we deploy the web applicat
 Locust is used to perform load testing on the web app.
 `locust -f locustfile.py --headless -u 20 -r 5 -t 20s`
 In the code above, locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds:
-![locust2](https://user-images.githubusercontent.com/34632633/187044030-6ceaf031-0d55-4367-bb8c-10e3fbce64fc.png)
+![locust2](https://user-images.githubusercontent.com/34632633/187084678-7e622d7f-1eef-4219-8629-1fd48809b933.png)
+
+As the number of request keeps increasing, the failures also increases. When the load became too much, the server shut down as can be seen in the image below
+![locust3](https://user-images.githubusercontent.com/34632633/187084760-71e1dccf-9405-4b9a-a4bc-071b92902de1.png)
+
+
 
 
 ## POSSIBLE FUTURE PROJECT IMPROVEMENT
